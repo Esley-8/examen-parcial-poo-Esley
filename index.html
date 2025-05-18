@@ -4,7 +4,59 @@
   <meta charset="UTF-8">
   <title>Tablas de Multiplicar</title>
   <style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  .tabla-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .tabla {
+    border: 2px solid black;
+    background: white;
+    width: 160px;
+  }
+  .tabla-title {
+    text-align: center;
+    font-weight: bold;
+    background: #eee;
+    border-bottom: 2px solid black;
+    padding: 5px;
+  }
+  .tabla-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+    border-bottom: 1px solid #ccc;
+  }
 
+  /* Colores por tabla */
+  .tabla-1 .resaltado { background-color: #FFEB3B; }
+  .tabla-2 .resaltado { background-color: #8BC34A; }
+  .tabla-3 .resaltado { background-color: #03A9F4; }
+  .tabla-4 .resaltado { background-color: #FF9800; }
+  .tabla-5 .resaltado { background-color: #E91E63; }
+  .tabla-6 .resaltado { background-color: #9C27B0; }
+  .tabla-7 .resaltado { background-color: #4CAF50; }
+  .tabla-8 .resaltado { background-color: #2196F3; }
+  .tabla-9 .resaltado { background-color: #F44336; }
+  .tabla-10 .resaltado { background-color: #795548; }
+
+  .resaltado {
+    width: 30px;
+    text-align: right;
+    font-weight: bold;
+    display: inline-block;
+  }
   </style>
 </head>
 <body>
